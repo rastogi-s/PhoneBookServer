@@ -1,0 +1,16 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "phone book for users",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "shubham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
