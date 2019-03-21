@@ -8,8 +8,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // for local connection string
-var connectionString =   'mongodb://127.0.0.1:27017/generic-api';
-//var connectionString =   '';
+//var connectionString =   'mongodb://127.0.0.1:27017/generic-api';
+var connectionString =   'mongodb://heroku_qxgcfk1m:36asqng0gvmctp08sajihler7d@ds047207.mlab.com:47207/heroku_qxgcfk1m';
 
 
 // check if running remotely
